@@ -33,3 +33,24 @@ and the result for **cdiiddwpgswtgt** for the key (1,15):
 ```
     nottoohardhere
 ```
+
+lets log to flag00 user 
+
+```
+    su flag00
+    password: nottoohardhere
+```
+
+now we can get password for next level01
+
+```
+    getflag
+```
+result :
+```
+    Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
+```
+```
+    su level01
+    password: x24ti5gi3x0ol2eh4esiuxias
+```
